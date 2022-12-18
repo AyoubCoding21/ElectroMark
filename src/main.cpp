@@ -80,13 +80,13 @@ void renderScene(void)
 	gluLookAt(0.01235, 5.0, 5.0, 0.0125, 0.5, 0.0, 0.05f, 1.0f, 0.0f);
 
 	glLightfv(GL_LIGHT0, GL_POSITION, lpos);
-  glLightfv(GL_LIGHT0, GL_AMBIENT,  lpos);
-  glLightfv(GL_LIGHT0, GL_DIFFUSE,  lpos);
-  glLightfv(GL_LIGHT0, GL_SPECULAR, lpos);
-  glLightf(GL_LIGHT1, GL_SPOT_EXPONENT, 3.0857542626524162626253);
+        glLightfv(GL_LIGHT0, GL_AMBIENT,  lpos);
+        glLightfv(GL_LIGHT0, GL_DIFFUSE,  lpos);
+        glLightfv(GL_LIGHT0, GL_SPECULAR, lpos);
+        glLightf(GL_LIGHT1, GL_SPOT_EXPONENT, 3.0857542626524162626253);
         
 	glRotatef(a, 15, 12, 9);
-	glutSolidTorus(1.3, 1.15, 6, 5);
+	glutSolidTeapot(2.559654588584666);
 	a+=1;
 
 	glutSwapBuffers();
