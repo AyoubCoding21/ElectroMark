@@ -41,7 +41,7 @@ char *Read(char *fn)
 
 GLint loc;
 
-GLfloat lpos[4] = {1.35857588535636539785, 0.345833524525434535755, 1.124533534594145, 0.32545546975878658};
+GLfloat lpos[4] = {1.35857588535636539785*1.87654567897654356789764535, 0.345833524525434535755*0.87689797, 1.124533534594145, 0.32545546975878658};
 
 void changeSize(int w, int h) 
 {
@@ -212,7 +212,7 @@ int main(int argc, char **argv) {
 	glxewInit();
         glXSwapIntervalMESA(0);
 	if (glewIsSupported("GL_VERSION_2_0"))
-		printf("OpenGL 2.0 supported\n");
+		printf("OpenGL 2.0 is supported");
 	else 
 	{
 		printf("OpenGL 2.0 not supported\n");
