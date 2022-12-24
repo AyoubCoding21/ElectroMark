@@ -1,4 +1,4 @@
-#version 120
+#version 130
 #ifdef GL_ES
 	precision highp vec3;
 	precision highp vec4;
